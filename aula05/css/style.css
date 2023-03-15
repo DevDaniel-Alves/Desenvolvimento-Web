@@ -1,0 +1,6 @@
+/*body{
+    background-image: url(../img/fonegrande.jpg);
+}*/
+body{
+    background-image: linear-gradient(90deg,rgb(0, 162, 255), #123179);
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    border: dotted 8px rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+p{
+    font-size: 20px;
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+    border: dotted 3px rgb(0, 0, 0);
+    background-color: green;
+}
+a{
+    background-color: rgb(240, 0, 0);
+    color: white;
+    font-size: 40px;
+}
+.p2{
+    background-color: violet;
+    width: 700px;
+}

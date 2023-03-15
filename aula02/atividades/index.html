@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD NOTICIAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CARD NOTICIAS</h1>
+    <div id="resultado"></div>
+    
+    <div class="card">
+        <img src="IMG.jpeg" alt="...">
+        <h1>Titulo da noticia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga vel facere quidem? Impedit architecto hic, inventore mollitia optio iusto quis amet voluptates at, rem laudantium tenetur ut quia? Aliquam.</p>
+    </div>
+    <div class="card">
+        <img src="IMG.jpeg" alt="...">
+        <h1>Titulo da noticia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga vel facere quidem? Impedit architecto hic, inventore mollitia optio iusto quis amet voluptates at, rem laudantium tenetur ut quia? Aliquam.</p>
+    </div>
+    <div class="card">
+        <img src="IMG.jpeg" alt="...">
+        <h1>Titulo da noticia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fuga vel facere quidem? Impedit architecto hic, inventore mollitia optio iusto quis amet voluptates at, rem laudantium tenetur ut quia? Aliquam.</p>
+    </div>
+    <script>
+        var nome = window.prompt('Qual o seu nome??')
+        var res = document.getElementById('resultado')
+        alert(`Olá ${nome}, sejá muito bem vindo ao nosso site`)
+        res.innerText = (`Bem vindo ${nome}, é muito bom saber que você escolheu o nosso site para acompanhar as noticias`)
+    </script>
+</body>
+</html>

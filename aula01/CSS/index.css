@@ -1,0 +1,19 @@
+hr{
+    height: 3px;
+    background-color: black;
+    
+}button{
+    padding: 8px;
+    background-color: black;
+    border-radius: 8px;
+}
+a{
+    color: black;
+}
+img{
+    width: 300px;
+    height: 350px;
+}
+body{
+    background-color: rgb(158, 158, 158);
+}
