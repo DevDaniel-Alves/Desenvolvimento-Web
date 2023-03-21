@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg-nossos-jogos.jgp');
+}
+
+.topo {
+    background-color: #0C0F11;
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.logotipo {
+    margin-left: 20%;
+    height: 55px;
+}
+
+.menutopo,
+.link01 {
+    margin-left: 5%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    gap: 5%;
+}
+
+/*=======MENU========*/
+.imagemfundo{
+    width: 100%;
+}
+
+.meio {
+    background-color: #C86C2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.img-1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.compre {
+    color: white;
+}
+
+.icone {
+    height: 30px;
+}
+
+.texto {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
