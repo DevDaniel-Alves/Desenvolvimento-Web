@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url('bg-nossos-jogos.jgp');
+    font-family: 'Roboto', sans-serif;
 }
 
 .topo {
@@ -29,20 +33,31 @@ body{
     display: flex;
     gap: 5%;
 }
-
-/*=======MENU========*/
-.imagemfundo{
-    width: 100%;
+/*==========BANNER LOBO============*/
+img{
+    max-width: 100%;
+    
 }
 
+
+/*=======MENUMEIO========*/
+
+.stylefundo{
+    background-color: #C86C2D;
+}
 .meio {
     background-color: #C86C2D;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    flex-wrap: wrap;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 30px;
 }
+
 
 .img-1 {
     display: flex;
@@ -66,4 +81,135 @@ body{
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+/*=============NOSSO JOGOS========*/
+
+
+
+.titulo-jogos {
+    
+    padding: 1.5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.jogos {
+    background-image: url(../img/bg-nossos-jogos.jpg);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.card01 img {
+    width: 100%;
+}
+
+.conteudo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.descricao {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px ;
+}
+
+.link {
+    margin-bottom: 25px;
+    color: #EA3601;
+    text-decoration: none;
+}
+
+/*========RODAPÉ=========*/
+
+.rodape {
+    background-color: black;
+
+}
+
+.topico01 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.redessociais{
+    font-size: 30px;
+}
+.iconsocial {
+    color: white;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.linha {
+    padding: 20px;
+}
+
+.linkssuporte a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.linkssuporte {
+    margin-top: 5px;
+}
+
+.logoimpresas {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    height: 50px;
+    margin-right: 20%;
+
+}
+
+.politicas a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.politicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 14px;
+    background-color: #242424;
+    height: 80px;
+}
+
+.copy {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400px;
+    font-size: 12px;
+    margin-top: 15px;
 }
