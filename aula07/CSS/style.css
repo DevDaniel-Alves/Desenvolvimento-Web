@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-image: url(../IMG/image.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+}
+.conteudos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.topo{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.nomegame{
+    font-size: 60px;
+    font-family: 'Emilys Candy', cursive;
+    color: #FFC700;
+}
+.bottom{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(250, 235, 215, 0.603);
+}
+.links{
+    margin-top: 80px;
+    font-size: 35px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+.more{
+    
+    color: rgba(255, 255, 255, 0.603);
+}
+.play{
+    text-decoration: none;
+    background-color: #FFC700;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+.nome{
+    text-align: center;
+}
