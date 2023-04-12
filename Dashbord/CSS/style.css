@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 body {
     background-color: rgb(77, 77, 255);
-
 }
 
 header {
@@ -13,6 +17,8 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin-top: 5px;
+
 }
 
 section {
@@ -24,12 +30,23 @@ section {
     margin: auto;
     box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.719);
 }
-.conteudoprincipal{
-
-}
 #msg{
     text-align: center;
 }
 #relogio{
     font-size: 20px;
+    
+}
+.bemvindo{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 25px;
+    
+}
+.projetos{
+    gap: 10px;
+    display: flex;
+}
+.box{
+    
 }

@@ -1,8 +1,8 @@
 function relogio() {
   var tempo = new Date(),
-      horas = tempo.getHours(),
-      minutos = tempo.getMinutes(),
-      segundos = tempo.getSeconds();
+    horas = tempo.getHours(),
+    minutos = tempo.getMinutes(),
+    segundos = tempo.getSeconds();
   document.querySelectorAll('#relogio')[0].innerHTML = aparecer(horas) + ":" + aparecer(minutos) + ":" + aparecer(segundos);
   function aparecer(substituir) {
     if (substituir < 10) {
