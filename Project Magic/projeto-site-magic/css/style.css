@@ -148,6 +148,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .titulo {
@@ -157,15 +158,16 @@ img {
 }
 
 .descricao {
-    margin-bottom: 20px;
     text-align: center;
+    height: 100%;
     padding: 5px;
+    margin-bottom: 15px;
 }
 
 .link {
-    margin-bottom: 25px;
     color: #EA3601;
     text-decoration: none;
+    margin-bottom: 15px;
 }
 
 /*========RODAPÉ=========*/
