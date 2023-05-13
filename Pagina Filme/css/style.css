@@ -1,0 +1,184 @@
+@import url(colors.css);
+@import url(fonts.css);
+@import url(spacing.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    background-image: url(../img/Backgroud.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(70, 70, 70);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.topo {
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nomesite {
+    color: #33cebd;
+}
+
+.Barrapesquisa {
+    width: 449px;
+    height: 44px;
+    margin: 0 0 0 249px;
+    padding: 10px 10px 10px 12px;
+    border-radius: 18px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #27453d;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10em;
+    padding: 30px;
+}
+
+.capafilme {
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.descricao {
+    width: 545px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.nomefilme {
+    width: 449px;
+    height: 31px;
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.genero {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.sinopse {
+    width: 545px;
+    height: 185px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 17px;
+    padding: 0;
+}
+
+.sinopse1 {
+    width: 95px;
+    height: 29px;
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.textsinopse {
+    width: 545px;
+    height: 55px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.boton {
+    display: flex;
+    gap: 10px;
+}
+
+.assistir {
+    width: 99px;
+    height: 44px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: var(--info-light);
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--info-dark);
+}
+
+.trailer {
+    width: 99px;
+    height: 100%;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--primary-light);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--primary-dark);
+}
