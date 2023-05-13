@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Exemplos</title>
+    <link rel="stylesheet" href="css/exemplos.css">
+</head>
+
+<body>
+    <main>
+        <form action="./servidor.html" method="get"><!--Fazer formulario-->
+            <div class="input-group">
+                <label for="">Nome:</label>
+                <input type="text" />
+            </div>
+            <div class="input-group">
+                <label for="">Data de Nascimento: </label>
+                <input type="date" />
+            </div>
+            <div class="input-group">
+                <label for="">E-mail:</label>
+                <input type="email" />
+            </div>
+            <div class="input-group">
+                <label for="">Senha:</label>
+                <input type="password" />
+            </div>
+            <div class="input-group">
+                <label for="">Confirmar senha:</label>
+                <input type="password" />
+            </div>
+            <div class="input-group">
+                <label for="">Genero:</label>
+                <div class="genero">
+                    Masculino<input type="radio" name="genero" />
+                    Feminino<input type="radio"name="genero" />
+                    Prefiro não responder<input type="radio"name="genero" />
+                </div>
+            </div>
+            <div class="input-group">
+                <button>Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
