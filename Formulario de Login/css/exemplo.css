@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #c2e59c; 
+    background: -webkit-linear-gradient(to left, #445b6d, #a07603); 
+    background: linear-gradient(to left, #445b6d, #a07603); 
+
+}
+
+main {
+    padding: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 56px;
+    width: 600px;
+    gap: 24px;
+    border-radius: 10px;
+}
+
+form input, form select{
+    background-color: #dfdede;
+    padding: 8px;
+    outline-color: #64b3f4;
+    border-radius: 5px;
+    border: none;
+}
+
+form input::placeholder{
+    color: black;
+}
+form button{
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+form label{ 
+    color: black;
+    font-size: 20px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+form button:hover {
+    background-color: #64b3f4;
+    transition: .3s;
+}
+
+.genero{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-endereco {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+#cep{
+    width: 80px;
+}
+
+#logradouro{
+    width: 250px;
+}
