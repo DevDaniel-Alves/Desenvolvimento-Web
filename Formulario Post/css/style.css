@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+:root {
+  --primary-50: #f1e9fd;
+  --primary-100: #dac8fa;
+  --primary-200: #c1a3f7;
+  --primary-300: #a87bf5;
+  --primary-400: #925bf1;
+  --primary-500: #7c3aed;
+  --primary-600: #7135e6;
+  --primary-700: #612cdd;
+  --primary-800: #5125d7;
+  --primary-900: #3313ce;
+  --primary-a-100: #b78cfa;
+  --primary-a-200: #8957f4;
+  --primary-a-400: #7c3aed;
+  --primary-a-700: #7a34d7;
+  --gray-50: #fcf9ff;
+  --gray-100: #f7f4fc;
+  --gray-200: #f1eff6;
+  --gray-300: #e4e1e9;
+  --gray-400: #c1bfc6;
+  --gray-500: #a2a0a7;
+  --gray-600: #79777d;
+  --gray-700: #656369;
+  --gray-800: #45444a;
+  --gray-900: #242228;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Titillium Web', sans-serif;
+  height: 100%;
+}
+body{
+  background-color: var(--gray-500);
+}
+textarea {
+  resize: none;
+  width: 100%;
+  height: 90px;
+}
+
+textarea::placeholder {
+  text-align: center;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  padding-top: 56px;
+
+}
+
+.form-post {
+  width: 430px;
+  height: auto;
+  padding: 24px;
+  background-color: var(--primary-50);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--gray-600);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-header {
+  text-align: center;
+  border-bottom: white 2px solid;
+}
+.criarpublic{
+  font-size: 24px;
+}
+
+.form-user {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.user-photo {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+}
+
+.btn-post {
+  background-color: var(--primary-600);
+  width: 382px;
+  height: 53px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.publish-resources {
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  padding: 12px;
+}
+.addpublic{
+  font-size: 14px;
+}
+.nomeuser{
+  font-size: 14px;
+}
