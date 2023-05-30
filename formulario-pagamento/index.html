@@ -12,34 +12,51 @@
 
 <body>
     <main class="conteiner flex">
-        <form class="form flex">
+        <form class="form flex" method="post">
             <h1 class="form__heading">Adicionar Cartão de Crédito</h1>
             <div class="form__container flex">
 
                 <div class="form__inputs flex">
                     <div class="form__input-group flex">
-                        <label for="cardNumber">Numero do Cartão</label>
-                        <input type="text" name="cardNumber" id="cardNumber">
+                        <label class="form__input-label" for="cardNumber">Numero do Cartão</label>
+                        <input class="form__input" type="text" maxlength="16" minlength="16" required name="cardNumber"
+                            id="cardNumber">
                     </div>
                     <div class="form__input-group flex">
-                        <label for="cardHolderName">Nome do Titular</label>
-                        <input type="text" name="cardNumber" id="cardHolderName">
+                        <label class="form__input-label" for="cardHolderName">Nome do Titular</label>
+                        <input class="form__input" type="text" name="cardNumber" required id="cardHolderName">
                     </div>
                     <div class="form__input-conteiner flex ">
                         <div class="form__input-group flex">
-                            <label for="expirationDate">Validade</label>
-                            <input type="text" name="cardNumber" id="expirationDate ">
+                            <label class="form__input-label" for="expirationDate">Validade</label>
+                            <input class="form__input" type="month" required name="cardNumber" id="expirationDate">
                         </div>
                         <div class="form__input-group flex">
-                            <label for="securityCede">CCV</label>
-                            <input type="text" name="cardNumber" id="securityCede ">
+                            <label class="form__input-label" for="securityCede">CCV</label>
+                            <input class="form__input" maxlength="3" minlength="3" required type="password"
+                                name="cardNumber" id="securityCede ">
                         </div>
                     </div>
                 </div>
 
-                <div class="form__credit-card ">
-                    <img src="img/Card 3.svg" alt="Cartão de Crédito">
-                    <div class="fomr__credit-card-text">
+
+                <div class="form__credit-card">
+                    <div class="credit-card">
+                        <div class="credit-card__name">
+                            <span>Credit Card</span>
+                            <span>
+                                <img src="img/Ask Mastercard Logo.png" alt="bandeira cartão">
+                            </span>
+                        </div>
+                        <div class="creditcard__number">
+                            1234 1234 1234 1234
+                        </div>
+                        <div class="credit-card__holder-expiration">
+                            <span>Daniel Gabriel Alves</span>
+                            <span>01/31</span>
+                        </div>
+                    </div>
+                    <div class="fomr__credit-card-text flex">
                         <i class="ph ph-shield-check"></i>
                         <span>Seus Dados estão seguros</span>
                     </div>
