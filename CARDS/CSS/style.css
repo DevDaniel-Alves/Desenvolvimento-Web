@@ -5,10 +5,18 @@ img{
 p{
     margin-left: 3%;
 }
+header{
+    text-align: center;
+}
+.cards__vendas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card{
     display: inline-block;
     width: 300px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(170, 170, 170);
     margin: 30px;
     padding: 10px;
     border-radius: 15px;
@@ -41,8 +49,8 @@ p{
     opacity: 60%;
 }
 .compra:hover {
-    opacity: 70%;
-    transition: .9s;
+    opacity: 10*0%;
+    transition: .5s;
     color: white;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
@@ -50,4 +58,7 @@ p{
     display: flex;
     margin-left: 3%;
     font-size: 25px;
+}
+.anao{
+    height: 240px;
 }

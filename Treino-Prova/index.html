@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Recuperação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="validacao.html" method="post">
+        <h1 class="matricula__escolar">Matricula Escolar</h1>
+        <h2 class="dados__pessoais">Dados Pessoais</h2>
+
+        <div class="flex">
+            <label for="nome">Nome do Estudante</label>
+            <input type="text" name="name" placeholder="Nome completo" required>
+        </div>
+
+        <div class="contant-flex">
+            <div class="flex">
+                <label for="data">Data de Nascimento</label>
+                <input class="data" type="date" name="data" required>
+            </div>
+
+            <div class="flex">
+                <label for="email">E-mail</label>
+                <input class="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+            </div>
+        </div>
+        <h4>Informações de Matricula</h4>
+
+        <div class="flex">
+            <label for="serie">Serie </label>
+            <select class="turma" name="serie" id="serie">
+                <option value="">Selecione</option>
+                <option value="">1° Ano</option>
+                <option value="">2° Ano</option>
+                <option value="">3° Ano</option>
+            </select>
+        </div>
+
+        <div class="flex">
+            <label for="radio">Turno</label>
+            <div class="flex__radio">
+                <label for="radio">Manhã
+                    <input name="radio" type="radio">
+                </label>
+                <label for="radio">Tarde
+                    <input name="radio" type="radio">
+                </label>
+            </div>
+        </div>
+
+        <button type="submit">Salvar Matricula</button>
+    </form>
+
+
+</body>
+
+</html>

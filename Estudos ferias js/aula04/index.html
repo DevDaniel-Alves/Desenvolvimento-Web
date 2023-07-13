@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+            <h1>Playground revisão JS</h1>
+
+        <article class="content">
+            <h4>Recebendo elementos</h4>
+
+            <div class="coolinput">
+                <label for="input" class="text">Nome:</label>
+                <input type="text" placeholder="Qual seu nome..." name="input" id="val01" class="input">
+            </div>
+
+            <button>Enviar</button>
+
+            <div class="resp">
+                <p id="atv01"> </p>
+            </div>
+        </article>
+
+
+
+
+
+
+        <article class="content">
+            <h4>Manipulação de tipo</h4>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor:</label>
+                <input type="text" placeholder="Digite o valor..." name="input" id="val01" class="input">
+            </div>
+
+            <button>Enviar</button>
+
+            <div class="resp">
+                <p id="atv02"> </p>
+            </div>
+        </article>
+
+
+
+
+
+
+
+
+
+
+        <article class="content">
+            <h4>Maior ou menor</h4>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 01:</label>
+                <input type="text" placeholder="Digite o primeiro valor..." name="input" id="indice01" class="input">
+            </div>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 02:</label>
+                <input type="text" placeholder="Digite o segundo valor..." name="input" id="indice02" class="input">
+            </div>
+            <button onclick="maiorMenor()" >Enviar</button>
+
+            <div class="resp">
+                <p id="atv03"> </p>
+            </div>
+        </article>
+
+
+
+
+
+
+
+
+        <article class="content">
+            <h4>Positivo e Negativo</h4>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 01:</label>
+                <input type="text" placeholder="Digite o primeiro valor..." name="input" id="nume01" class="input">
+            </div>
+
+            <button onclick="posinega()">Enviar</button>
+
+            <div class="resp">
+                <p id="atv04"> </p>
+            </div>
+        </article>
+
+
+
+
+        <article class="content">
+            <h4>Media do Aluno</h4>
+            <div class="flex">
+                <p>A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete</p>
+                <p>A mensagem “Aprovado com Distinção”, se a média for igual a dez</p>
+                <p>A mensagem “Reprovado” se a média for menor de do que sete</p>
+            </div>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 01:</label>
+                <input type="text" placeholder="Digite o primeiro valor..." name="input" id="ind01" class="input">
+            </div>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 02:</label>
+                <input type="text" placeholder="Digite o segundo valor..." name="input" id="ind02" class="input">
+            </div>
+            <button onclick="mediaaluno()">Enviar</button>
+
+            <div class="resp">
+                <p id="atv05"> </p>
+            </div>
+        </article>
+
+
+
+
+
+        <article class="content">
+            <h4>Calculadora</h4>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 01:</label>
+                <input type="text" placeholder="Digite o primerio valor..." name="input" id="val01" class="input">
+            </div>
+
+            <div class="coolinput">
+                <label for="input" class="text">Valor 02:</label>
+                <input type="text" placeholder="Digite o primerio valor..." name="input" id="val02" class="input">
+            </div>
+
+            <div class="select">
+                <select name="tipo" id="select">
+                    <option value="0">Operação</option>
+                    <option value="1">SOMA</option>
+                    <option value="2">SUBTRAÇÃO</option>
+                    <option value="3">MULTIPLICAÇÃO</option>
+                    <option value="4">DIVISÃO</option>
+                    <option value="5">QUADRADO</option>
+                </select>
+            </div>
+
+            <button onclick="calculadora()">Enviar</button>
+
+            <div class="resp">
+                <p id="atv06"> </p>
+            </div>
+        </article>
+
+
+
+
+
+
+
+
+
+        <article class="content">
+            <h4>Tabuada</h4>
+
+            <div class="coolinput">
+                <label for="input" class="text">Tabuada:</label>
+                <input type="text" placeholder="Digite o valor..." name="input" id="valor01" class="input">
+            </div>
+
+            <button onclick="play()">Enviar</button>
+
+            <div class="resp">
+                <p id="atv07"></p>
+            </div>
+        </article>
+
+    </section>
+        
+
+  <script src="js/script.js"></script>
+</body>
+</html>

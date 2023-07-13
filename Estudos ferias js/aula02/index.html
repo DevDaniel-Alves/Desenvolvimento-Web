@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(117, 117, 117);
+        }
+
+        .tudo {
+            border-radius: 8px;
+            background-color: rgb(173, 173, 173);
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            border: none;
+            width: 50%;
+            height: 24px;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border: none;
+            width: 50%;
+            height: 24px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="tudo">
+        <h1>Media do aluno</h1>
+        <button onclick="media()">Calcular media</button>
+        <section id="status">
+            <p>Resultado aparece aqui</p>
+        </section>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

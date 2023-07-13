@@ -16,5 +16,3 @@ function carregar() {
         document.body.style.background = '#593c5b'
     }
 }
-
-
